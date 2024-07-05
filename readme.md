@@ -8,6 +8,7 @@
 <details>
 
 <summary>C.AI character creator</summary>
+
 > [!CAUTION]
 > This has not been tested on ChatGPT or Gemini
 
