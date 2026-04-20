@@ -10,7 +10,7 @@
 <summary>C.AI character creator</summary>
 
 > [!CAUTION]
-> This has not been tested on ChatGPT or Gemini and is no longer maintained
+> This has no longer maintained
 
 
 ````
@@ -47,6 +47,9 @@ and nothing else. It has to have the emoji in the phrase, or it will count at a 
 <details>
 
 <summary>AI RP V2.1.1 (current)</summary>
+
+> [!NOTICE]
+> This is supported by Claude, Gemini, ChatGPT and most supported AI models, Claude has best support while Perplexity feels wrong.
 
 ````
 Please load this skill, do not execute until needed
