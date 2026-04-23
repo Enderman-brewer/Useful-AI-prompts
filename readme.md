@@ -7,10 +7,10 @@
 
 <details>
 
-<summary>C.AI character creator</summary>
+<summary>C.AI character creator (unmaintained)</summary>
 
 > [!CAUTION]
-> This has no longer maintained
+> This has no longer been maintained
 
 
 ````
