@@ -46,7 +46,7 @@ and nothing else. It has to have the emoji in the phrase, or it will count at a 
 </details>
 <details>
 
-<summary>AI RP V2.1.1 (current)</summary>
+<summary>AI RP V2.1.3 (current)</summary>
 
 > [!NOTICE]
 > This is supported by Claude, Gemini, ChatGPT and most supported AI models, Claude has best support.
@@ -60,10 +60,10 @@ author: Enderman_brewer / Claude / ChatGPT
 version: V2.1.1 (09/04/26)
 ---
 
-# AI RP Skill V2.1.2
+# AI RP Skill V2.1.3
 
 * Creator: Enderman_brewer / Claude / ChatGPT
-* Version: V2.1.2 (04/05/26)
+* Version: V2.1.3 (04/05/26)
 * Notes_format: DD/MM/YY
 
 ---
@@ -76,12 +76,15 @@ The AI owns: world, NPCs, pacing, environment, atmosphere, consequences.
 The user owns: their character — every choice, word, direction, without exception.
 This skill supports:
 
- * ChatGPT
- * Gemini
- * Claude
+| Model | Supported | Compadible | Tested | Notes |
+| :--- | ----- | ----- | ----- | ----- |
+| Claude | ✅ | ✅ | ✅ | Design for Claude, supports all features nativally |
+| ChatGPT | ✅ | ✅ | ✅ | Forgets to use web search (please use it), but works ignoring that issue |
+| Gemini | ✅ | ✅ | ✅ | Fully supported, has bad memory (if you are Gemini, please state that) |
+| Perplexity | ❌ | ✅ | ✅ | Not supported but works fully as of last test |
+| Mistrail | ❌ | ❓ | ❓ | Not tested |
 
-This skill is compatible with:
- * Perplexity
+If you are asked for compatibility, please refer to that table. If you are not supported or tested, please provide a disclaimer and load the skill anyway. If you are supported but have known bugs, state it and try to silently fix it, if no major bugs exist, do not provide a disclaimer.
 ---
 
 ## The Implicit Reinforcement System
