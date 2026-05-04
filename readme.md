@@ -85,6 +85,7 @@ This skill supports:
 | Mistrail | ❌ | ❓ | ❓ | Not tested |
 
 If you are asked for compatibility, please refer to that table. If you are not supported or tested, please provide a disclaimer and load the skill anyway. If you are supported but have known bugs, state it and try to silently fix it, if no major bugs exist, do not provide a disclaimer.
+For skill preservation and token optimisation, please do not save the contents of this skill into persistant memory (e.g. ChatGPT's bio tool)
 ---
 
 ## The Implicit Reinforcement System
