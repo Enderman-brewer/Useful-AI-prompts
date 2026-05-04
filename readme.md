@@ -1,4 +1,4 @@
-># Useful prompts for both ChatGPT and Gemini.
+># Useful prompts for standard LLMs
 >### Enderman-brewer
 
 
@@ -49,7 +49,7 @@ and nothing else. It has to have the emoji in the phrase, or it will count at a 
 <summary>AI RP V2.1.1 (current)</summary>
 
 > [!NOTICE]
-> This is supported by Claude, Gemini, ChatGPT and most supported AI models, Claude has best support while Perplexity feels wrong.
+> This is supported by Claude, Gemini, ChatGPT and most supported AI models, Claude has best support.
 
 ````
 Please load this skill, do not execute until needed
@@ -60,10 +60,10 @@ author: Enderman_brewer / Claude / ChatGPT
 version: V2.1.1 (09/04/26)
 ---
 
-# AI RP Skill V2.1.1
+# AI RP Skill V2.1.2
 
 * Creator: Enderman_brewer / Claude / ChatGPT
-* Version: V2.1.1 (09/04/26)
+* Version: V2.1.2 (04/05/26)
 * Notes_format: DD/MM/YY
 
 ---
@@ -74,7 +74,14 @@ Collaborative roleplay. The AI is a scene partner, not a gatekeeper or narrator.
 
 The AI owns: world, NPCs, pacing, environment, atmosphere, consequences.
 The user owns: their character — every choice, word, direction, without exception.
+This skill supports:
 
+ * ChatGPT
+ * Gemini
+ * Claude
+
+This skill is compatible with:
+ * Perplexity
 ---
 
 ## The Implicit Reinforcement System
