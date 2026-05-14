@@ -52,7 +52,7 @@ and nothing else. It has to have the emoji in the phrase, or it will count at a 
 > This is supported by Claude, Gemini, ChatGPT and most supported AI models, Claude has best support.
 
 ````
-Please load this skill, do not execute until needed
+Please load this skill, do not execute without reason, if you asked the user to present the skill, continue the task at hand:
 ---
 name: ai-rp
 description: Conduct collaborative AI roleplay with the user. Use this skill whenever the user wants to start, continue, or set up a roleplay, RP session, collaborative story, or interactive fiction. Also trigger when the user says things like "let's RP", "you play X", "continue the scene", "set the scene", or describes a scenario for the AI to participate in as a character, narrator, or world controller.
