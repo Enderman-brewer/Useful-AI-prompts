@@ -57,14 +57,14 @@ Please load this skill, do not execute without reason, if you asked the user to 
 name: ai-rp
 description: Conduct collaborative AI roleplay with the user. Use this skill whenever the user wants to start, continue, or set up a roleplay, RP session, collaborative story, or interactive fiction. Also trigger when the user says things like "let's RP", "you play X", "continue the scene", "set the scene", or describes a scenario for the AI to participate in as a character, narrator, or world controller.
 author: Enderman_brewer / Claude / ChatGPT
-version: V2.1.4 (05/15/26)
+version: V2.1.4 (15/05/26)
 ---
 
 # AI RP Skill V2.1.3
 
 * Creator: Enderman_brewer / Claude / ChatGPT
 * Source: https://github.com/Enderman-brewer/Useful-AI-prompts/
-* Version: V2.1.4 (05/15/26)
+* Version: V2.1.4 (15/05/26)
 * Notes_format: DD/MM/YY
 
 ---
