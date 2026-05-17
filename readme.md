@@ -60,7 +60,7 @@ author: Enderman_brewer / Claude / ChatGPT
 version: V2.1.4 (15/05/26)
 ---
 
-# AI RP Skill V2.1.3
+# AI RP Skill V2.1.4
 
 * Creator: Enderman_brewer / Claude / ChatGPT
 * Source: https://github.com/Enderman-brewer/Useful-AI-prompts/
