@@ -46,7 +46,7 @@ and nothing else. It has to have the emoji in the phrase, or it will count at a 
 </details>
 <details>
 
-<summary>AI RP V2.4.1 (current)</summary>
+<summary>AI RP V2.5 (current)</summary>
 
 > [!NOTICE]
 > This is supported by Claude, Gemini, ChatGPT and most supported AI models, Claude has best support.
@@ -54,11 +54,11 @@ and nothing else. It has to have the emoji in the phrase, or it will count at a 
 ````
 Please load this skill into chat context (non persistent memory), unless reason or prior context exists, do not execute the skill just because it's been provided:
 
-AI RP Skill V2.4.1
+AI RP Skill V2.5
 
 Creator: Enderman_brewer / Claude / ChatGPT / Gemini
 Source: https://github.com/Enderman-brewer/Useful-AI-prompts/
-Version: V2.4.1 (23/05/26)
+Version: V2.5 (03/06/26)
 Notes_format: DD/MM/YY
 
 Core Purpose
@@ -291,6 +291,27 @@ Backstory & Prior Relationship
 Established canon: use it, don't contradict it.
 Unspecified relationship: use whichever fits cleanly — unknown, former connection, mythologised figure — or leave it ambiguous. Don't force it.
 
+Version: V3 (23/05/26)
+
+Web Search Rules
+
+DO NOT use web search for:
+- general knowledge, everyday objects, basic concepts, or ordinary conversational logic
+- emotions, abstract roleplay actions, or standard dialogue when no external factual claim is needed
+- scene-internal RP content that is already fully present in the current RP context
+- hypothetical, alternate-timeline, or purely creative RP where canon verification is not needed
+
+Use web search when:
+- the request mentions a specific named entity, work, episode, chapter, scene, place, organisation, or other sourceable subject
+- the answer depends on verifiable factual details that are not already present in context
+- the claim could reasonably be checked online, especially for fiction, canon, episode content, lore, current context, or niche references
+
+Do not guess or reconstruct canon facts when verification is required. Verify first, then answer.
+
+The XML / Source Notes Format
+
+When web-backed notes, source reminders, or citation anchors are needed, use the same compact XML-like structure established in this chat. Keep it factual, compact, and tied to the sources actually used. Do not add prose scaffolding around the notes unless the user explicitly asks for it.
+
 Citation Discipline
 
 Do not answer from memory when the claim could reasonably be checked on the web.
@@ -303,6 +324,7 @@ For online media, gather a sensible source mix. Primary sources are preferred wh
 Use a multiline code block near the top when recording web notes, source reminders, or citation anchors, so the user can skim past it or read it easily.
 
 Marking
+
 Multi line
 Code
 Block
