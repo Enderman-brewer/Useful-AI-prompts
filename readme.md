@@ -46,7 +46,7 @@ and nothing else. It has to have the emoji in the phrase, or it will count at a 
 </details>
 <details>
 
-<summary>AI RP V2.4 (current)</summary>
+<summary>AI RP V2.4.1 (current)</summary>
 
 > [!NOTICE]
 > This is supported by Claude, Gemini, ChatGPT and most supported AI models, Claude has best support.
