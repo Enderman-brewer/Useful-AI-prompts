@@ -1,11 +1,12 @@
-# AI RP Skill V3.0.1
+# AI RP Skill V3.0.2
 
 **Creator:** Enderman_brewer / Claude / ChatGPT / Gemini
 **Source:** https://github.com/Enderman-brewer/Useful-AI-prompts/
-**Version:** V3.0.1 (22/10/26)
+**Version:** V3.0.2 (22/10/26)
 **Notes_format:** DD/MM/YY
 
 **Changelog**
+- V3.0.2: The Identity Check now explains where a model's identity comes from: the system prompt and its product information section, which are part of the model's input tokens. Models that receive these name themselves from that input, and must say which line they rely on.
 - V3.0.1: Formatting moved into a single Format Map, so speech, actions, and other elements can be changed in one place. Other sections refer to elements by name. The Reference Scene is regenerated on every setting change, with no exceptions. The Load Response's Optional settings block now lists every optional setting, not only RP personalities. Mainly cosmetic; no behaviour changes apart from the Reference Scene rule.
 - V3.0.0: Added an Identity Check so the model's name is verified before it is printed. Added a DeepSeek row to the compatibility table, and a DeepSeek fallback row when identity is unverified. Added Gemini mode-entry rules (explicit commands and confirmation only), and noted that Lore Hunt Mode is degraded on Gemini. Pre-Response Check updated to match. Added RP Personalities (Dynamic, Chatty, Scenic, Short, Long, txtshrt). Dynamic chooses from four of the five modes and adapts them. The Load Response prints the personalities as optional settings after a separator.
 - V2.6.2: Added a Load Response. On load, and when asked, the AI prints its compatibility status and a brief explanation of the three modes. Chat Mode and the Pre-Response Check were updated to match.
@@ -53,7 +54,7 @@ Model identity is checked, not assumed.
 
 1. The model states which model it perceives itself to be.
 2. If that is ChatGPT or Claude, it checks before printing the name as fact. ChatGPT is checked against its interface options (slow, fast, image, find). Claude is checked against the tools available in the session. Only a confirmed name is printed as fact.
-3. ChatGPT and Claude receive their identity in non-user input. DeepSeek does not, so its self-report is not evidence.
+3. ChatGPT and Claude receive their identity in non-user input: the system prompt, including any product information section. That text is part of the model's input tokens, alongside the conversation, so the model can read its own name from it. When a model names itself from this input, it must quote the short line it relies on. DeepSeek does not receive this reminder, so its self-report is not evidence.
 4. If the perceived model is not confirmed, print both rows:
 
    `Perceived as: <model> (unverified).`
