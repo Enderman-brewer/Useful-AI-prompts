@@ -6,7 +6,7 @@
 **Notes_format:** DD/MM/YY
 
 **Changelog**
-- V3.0.1: Formatting moved into a single Format Map, so speech, actions, and other elements can be changed in one place. Other sections refer to elements by name. The Reference Scene is regenerated on every setting change, with no exceptions. Mainly cosmetic; no behaviour changes apart from the Reference Scene rule.
+- V3.0.1: Formatting moved into a single Format Map, so speech, actions, and other elements can be changed in one place. Other sections refer to elements by name. The Reference Scene is regenerated on every setting change, with no exceptions. The Load Response's Optional settings block now lists every optional setting, not only RP personalities. Mainly cosmetic; no behaviour changes apart from the Reference Scene rule.
 - V3.0.0: Added an Identity Check so the model's name is verified before it is printed. Added a DeepSeek row to the compatibility table, and a DeepSeek fallback row when identity is unverified. Added Gemini mode-entry rules (explicit commands and confirmation only), and noted that Lore Hunt Mode is degraded on Gemini. Pre-Response Check updated to match. Added RP Personalities (Dynamic, Chatty, Scenic, Short, Long, txtshrt). Dynamic chooses from four of the five modes and adapts them. The Load Response prints the personalities as optional settings after a separator.
 - V2.6.2: Added a Load Response. On load, and when asked, the AI prints its compatibility status and a brief explanation of the three modes. Chat Mode and the Pre-Response Check were updated to match.
 - V2.6.1: Restored the Web Search Rules from V2.5.x (when to search and when not to). Citation Discipline now points to those limits for Scene Mode. Added one Pre-Response Check item for search scope. No other changes.
@@ -36,10 +36,14 @@ On skill load, and whenever the user asks for compatibility status or a mode exp
 
 1. **Compatibility status:** determine the model through the Identity Check below, find its row in the compatibility table, and print its Supported, Compatible, Tested, and Notes values. If the model is not in the table, say so. Print the status even when the model is fully supported and has no bugs. Disclaimers still follow the compatibility rule above.
 2. **Mode briefing:** one or two plain sentences each for Chat Mode, Lore Hunt Mode, and Scene Mode, including how to enter each one.
-3. **Optional settings:** after a clear separator (`---`), print a settings block titled `Optional settings`. Each RP personality is one line in the form `<name> (default)` or `<name>`, followed by a short description, with the active one marked `(active)`. Close with one line saying these are optional and the user can pick any of them.
+3. **Optional settings:** after a clear separator (`---`), print a settings block titled `Optional settings` that lists every optional setting in this skill:
+   - **RP personality:** one line per personality in the form `<name> (default)` or `<name>`, followed by a short description, with the active one marked `(active)`.
+   - **Format:** one line naming the current markers from the Format Map, with the default marked `(default)`.
+
+   Close with one line saying these are optional and the user can change any of them.
 
 Rules:
-- Keep the block under about 160 words. Plain prose or a short list. No RP formatting.
+- Keep the block under about 200 words. Plain prose or a short list. No RP formatting.
 - The block starts nothing. It is not a scene, not a lore hunt, and not a question. End by waiting for the user.
 - Do not print the block in Scene Mode, and never let it interrupt a scene.
 
